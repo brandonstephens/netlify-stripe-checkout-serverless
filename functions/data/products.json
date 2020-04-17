@@ -1,0 +1,18 @@
+[
+  {
+    "sku": "DEMO001",
+    "name": "This Pretty Plant",
+    "description": "Feed me seamor",
+    "image": "http://placehold.it/300x300",
+    "amount": 10000,
+    "currency": "USD"
+  },
+  {
+    "sku": "DEMO002",
+    "name": "Adventure Mug",
+    "description": "Adventure is out there",
+    "image": "http://placehold.it/300x300",
+    "amount": 15000,
+    "currency": "USD"
+  }
+]

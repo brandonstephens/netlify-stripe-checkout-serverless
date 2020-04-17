@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netlify + Stripe</title>
-  <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-  <header>
-    <a href="/">Home</a>
-  </header>
-
-  <main>
-    <h1>Buy our Stuff</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netlify + Stripe</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/">Home</a>
+    </header>
     Test
-  </main>
-</body>
+    <main>
+      <h1>Buy our Stuff</h1>
+
+      <div class="products"></div>
+    </main>
+    <script type="module">
+      import { loadProducts } from '.js/load-products.js'
+      loadProducts()
+    </script>
+  </body>
 </html>

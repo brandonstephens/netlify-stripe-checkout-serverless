@@ -1,5 +1,8 @@
-# sample dev block in the toml
-# note: each of these fields are OPTIONAL and should only be used if you need an override
+[build]
+  publish = "public"
+  functions = "functions"
+
 [dev]
   publish = "public"
   autoLaunch = true
+  functions = "functions"
