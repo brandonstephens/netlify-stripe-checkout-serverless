@@ -1,0 +1,10 @@
+{
+  "name": "netlify-stripe-checkout-serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Brandon Stephens <brandonstephens@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.0.4"
+  }
+}
