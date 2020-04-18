@@ -1,8 +1,8 @@
 [build]
-  publish = "public"
+  publish = "dist"
   functions = "functions"
 
 [dev]
-  publish = "public"
+  publish = "dist"
   autoLaunch = true
   functions = "functions"

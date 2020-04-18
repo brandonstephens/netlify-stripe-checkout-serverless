@@ -1,7 +1,6 @@
 function createProductFromTemplate(item) {
   const template = document.querySelector('#product')
   const product = template.content.cloneNode(true)
-
   product.querySelector('h2').innerText = item.name
   product.querySelector('.description').innerText = item.description
   product.querySelector('[name="sku"]').value = item.sku
