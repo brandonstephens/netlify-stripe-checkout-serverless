@@ -13,7 +13,7 @@ export async function handleFormSubmission(event) {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(data),
-  }).then((res) => res.join())
+  }).then((res) => res.json())
 
   const stripe = Stripe(response.publishableKey)
   const { error } = await stripe.redirectToCheckout({
