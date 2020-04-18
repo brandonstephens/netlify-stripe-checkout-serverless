@@ -1,7 +1,7 @@
 {
   "name": "netlify-stripe-checkout-serverless",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "",
   "author": "Brandon Stephens <brandonstephens@me.com>",
   "license": "MIT",
   "dependencies": {
