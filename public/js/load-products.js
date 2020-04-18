@@ -9,7 +9,7 @@ function createProductFromTemplate(item) {
     currency: item.currency,
   }).format((item.amount / 100).toFixed(2))
 
-  const image = product.querySelector('img')
+  const img = product.querySelector('img')
   img.src = item.image
   img.alt = item.name
 
